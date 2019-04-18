@@ -9,7 +9,7 @@ const Pub = ({ pub }) => {
     return (
         <Link to={"/pub/" + pub.id} className="pub-card">
             <h4>{pub.name} <span>{pub.rate}/10</span></h4>
-            <img src={pub.image.length > 0 ? pub.image[0].imageUrl : IMG_PLACEHOLDER} alt="nice photos" />
+            <img src={pub.images.length > 0 ? pub.images[0].imageUrl : IMG_PLACEHOLDER} alt="nice photos" />
             <h5>{pub.description}</h5>
             <small>Street: {pub.street}</small>
         </Link>

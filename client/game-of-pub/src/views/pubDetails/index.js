@@ -34,7 +34,7 @@ export default class PubDetails extends Component {
         return (
             <div>
                 <h3>PubDetails: {pub.name}</h3>
-                <img src={pub.image[0].imageUrl} alt="nice photos" />
+                <img src={pub.images[0].imageUrl} alt="nice photos" />
                 <h5>{pub.description}</h5>
                 <small>Street: {pub.street}</small>
                 <section>
