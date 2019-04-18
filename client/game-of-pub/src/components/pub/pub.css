@@ -1,0 +1,7 @@
+.pub-card{
+    border: 1px black solid;
+}
+
+.pub-card img{
+    max-height: 200px;
+}
